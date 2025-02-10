@@ -56,51 +56,53 @@ function ProductTable() {
   const categories = Array.from(new Set(products.map(product => product.category)));
 
   return (
-    <div className="mb-12">
-      <h2 className="text-3xl font-bold text-center mb-8">Tabela de Preços</h2>
+    <div className="mb-8 md:mb-12">
+      <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 md:mb-8">Tabela de Preços</h2>
       {categories.map(category => (
-        <div key={category} className="mb-8">
-          <h3 className="text-xl font-semibold mb-4 text-blue-600">{category}</h3>
-          <div className="overflow-x-auto">
-            <table className="w-full border-collapse bg-white rounded-lg shadow-lg">
-              <thead className="bg-blue-500 text-white">
-                <tr>
-                  <th className="px-6 py-3 text-left">Produto</th>
-                  {category === 'Produtos 2L / 5L' ? (
-                    <>
-                      <th className="px-6 py-3 text-right">2L</th>
-                      <th className="px-6 py-3 text-right">5L</th>
-                    </>
-                  ) : (
-                    <th className="px-6 py-3 text-right">Preço</th>
-                  )}
-                </tr>
-              </thead>
-              <tbody>
-                {products
-                  .filter(product => product.category === category)
-                  .map((product, index) => (
-                    <tr
-                      key={product.name}
-                      className={`
-                        border-b
-                        ${index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}
-                        hover:bg-blue-50 transition-colors
-                      `}
-                    >
-                      <td className="px-6 py-4">{product.name}</td>
-                      {category === 'Produtos 2L / 5L' ? (
-                        <>
-                          <td className="px-6 py-4 text-right">{product.price2L}</td>
-                          <td className="px-6 py-4 text-right">{product.price5L}</td>
-                        </>
-                      ) : (
-                        <td className="px-6 py-4 text-right">{product.singlePrice}</td>
-                      )}
-                    </tr>
-                  ))}
-              </tbody>
-            </table>
+        <div key={category} className="mb-6 md:mb-8">
+          <h3 className="text-lg md:text-xl font-semibold mb-3 md:mb-4 text-blue-600">{category}</h3>
+          <div className="overflow-x-auto -mx-4 md:mx-0">
+            <div className="min-w-full inline-block md:w-full px-4 md:px-0">
+              <table className="w-full border-collapse bg-white rounded-lg shadow-lg">
+                <thead className="bg-blue-500 text-white">
+                  <tr>
+                    <th className="px-4 md:px-6 py-2 md:py-3 text-left text-sm md:text-base">Produto</th>
+                    {category === 'Produtos 2L / 5L' ? (
+                      <>
+                        <th className="px-4 md:px-6 py-2 md:py-3 text-right text-sm md:text-base">2L</th>
+                        <th className="px-4 md:px-6 py-2 md:py-3 text-right text-sm md:text-base">5L</th>
+                      </>
+                    ) : (
+                      <th className="px-4 md:px-6 py-2 md:py-3 text-right text-sm md:text-base">Preço</th>
+                    )}
+                  </tr>
+                </thead>
+                <tbody>
+                  {products
+                    .filter(product => product.category === category)
+                    .map((product, index) => (
+                      <tr
+                        key={product.name}
+                        className={`
+                          border-b
+                          ${index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}
+                          hover:bg-blue-50 transition-colors
+                        `}
+                      >
+                        <td className="px-4 md:px-6 py-2 md:py-4 text-sm md:text-base">{product.name}</td>
+                        {category === 'Produtos 2L / 5L' ? (
+                          <>
+                            <td className="px-4 md:px-6 py-2 md:py-4 text-right text-sm md:text-base">{product.price2L}</td>
+                            <td className="px-4 md:px-6 py-2 md:py-4 text-right text-sm md:text-base">{product.price5L}</td>
+                          </>
+                        ) : (
+                          <td className="px-4 md:px-6 py-2 md:py-4 text-right text-sm md:text-base">{product.singlePrice}</td>
+                        )}
+                      </tr>
+                    ))}
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       ))}
