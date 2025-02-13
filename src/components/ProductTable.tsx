@@ -16,7 +16,7 @@ const products: Product[] = [
   { name: 'Alvejante c/ cloro', price2L: 'R$ 9,00', price5L: 'R$ 17,50', category: 'Produtos 2L / 5L' },
   { name: 'Desinfetante', price2L: 'R$ 7,50', price5L: 'R$ 12,50', category: 'Produtos 2L / 5L' },
   { name: 'Água sanitária', price2L: 'R$ 0,00', price5L: 'R$ 10,00', category: 'Produtos 2L / 5L' },
-  { name: 'Cloro 12%', price2L: 'R$ 00,00', price5L: 'R$ 19,90', category: 'Produtos 2L / 5L' },
+  { name: 'Cloro 12%', price2L: 'R$ 0,00', price5L: 'R$ 19,90', category: 'Produtos 2L / 5L' },
   { name: 'Sabão Maridão desengordurante', price2L: 'R$ 9,00', price5L: 'R$ 17,50', category: 'Produtos 2L / 5L' },
   { name: 'Multiuso limão', price2L: 'R$ 9,00', price5L: 'R$ 17,50', category: 'Produtos 2L / 5L' },
   { name: 'Desengraxante Solopan', price2L: 'R$ 15,00', price5L: 'R$ 35,00', category: 'Produtos 2L / 5L' },
