@@ -33,22 +33,22 @@ const products: Product[] = [
   // Sacos para Lixo
   { name: 'Sacos para lixo 20 litros (c/ 100)', singlePrice: 'R$ 25,00', category: 'Sacos para Lixo' },
   { name: 'Sacos para lixo 40 litros (c/ 100)', singlePrice: 'R$ 35,00', category: 'Sacos para Lixo' },
-  { name: 'Sacos para lixo 60 litros (c/ 100)', singlePrice: 'R$ 50,00', category: 'Sacos para Lixo' },
+  { name: 'Sacos para lixo 60 litros (c/ 100)', singlePrice: 'R$ 45,00', category: 'Sacos para Lixo' },
   { name: 'Sacos para lixo 100 litros grosso (c/ 50)', singlePrice: 'R$ 80,00', category: 'Sacos para Lixo' },
   { name: 'Sacos para lixo 200 litros grosso (c/ 50)', singlePrice: 'R$ 80,00', category: 'Sacos para Lixo' },
-  { name: 'Sacos para lixo 300 litros grosso (c/ 50)', singlePrice: 'R$ 80,00', category: 'Sacos para Lixo' },
+  { name: 'Sacos para lixo 300 litros grosso (c/ 50)', singlePrice: 'R$ 130,00', category: 'Sacos para Lixo' },
   
   // Outros Produtos
   { name: 'Panos PP 28', singlePrice: 'R$ 6,00', category: 'Outros Produtos' },
-  { name: 'Pano branco', singlePrice: 'R$ 9,00', category: 'Outros Produtos' },
-  { name: 'Sabão em pó OMO', singlePrice: 'R$ 28,00', category: 'Outros Produtos' },
+  { name: 'Pano branco', singlePrice: 'R$ 4,00', category: 'Outros Produtos' },
+  { name: 'Sabão em pó OMO', singlePrice: 'R$ 18,00', category: 'Outros Produtos' },
   { name: 'Álcool em gel 500ml', singlePrice: 'R$ 8,50', category: 'Outros Produtos' },
   { name: 'Sabão caseiro', singlePrice: 'R$ 3,00', category: 'Outros Produtos' },
-  { name: 'Álcool líquido', singlePrice: 'R$ 7,50', category: 'Outros Produtos' },
+  { name: 'Álcool líquido', singlePrice: 'R$ 9,80', category: 'Outros Produtos' },
   { name: 'Luvas', singlePrice: 'R$ 14,00', category: 'Outros Produtos' },
-  { name: 'Esponja', singlePrice: 'R$ 3,50', category: 'Outros Produtos' },
-  { name: 'Papel toalha interfolha (unidade)', singlePrice: 'R$ 12,50', category: 'Outros Produtos' },
-  { name: 'Papel higiênico folha simples (c/ 4un)', singlePrice: 'R$ 6,00', category: 'Outros Produtos' },
+  { name: 'Esponja', singlePrice: 'R$ 1,50', category: 'Outros Produtos' },
+  { name: 'Papel toalha interfolha (unidade)', singlePrice: 'R$ 18,50', category: 'Outros Produtos' },
+  { name: 'Papel higiênico folha simples (c/ 4un)', singlePrice: 'R$ 4,50', category: 'Outros Produtos' },
   { name: 'Papel higiênico folha dupla (c/ 4un)', singlePrice: 'R$ 7,50', category: 'Outros Produtos' },
 ];
 
