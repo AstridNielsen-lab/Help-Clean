@@ -106,6 +106,96 @@ function ProductTable() {
           </div>
         </div>
       ))}
+  {/* Informações detalhadas dos produtos */}
+      <div className="mt-12 bg-white rounded-lg shadow-lg p-6 md:p-8">
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">Produtos de Limpeza com Qualidade e Preços Imbatíveis - Compre Direto da Fábrica</h2>
+        
+        <p className="text-gray-700 mb-6">
+          Procurando produtos de limpeza de qualidade com preços acessíveis? Nossa loja oferece uma linha completa de produtos de limpeza doméstica, empresarial e industrial, com produção própria e pronta entrega. Veja nossos principais itens e aproveite os melhores preços:
+        </p>
+
+        <div className="space-y-8">
+          <section>
+            <h3 className="text-xl font-semibold text-blue-600 mb-3">Amaciantes e Sabões Líquidos</h3>
+            <ul className="list-disc pl-5 space-y-2 text-gray-700">
+              <li>Comprar amaciante de roupa 2L e 5L com fragrância duradoura</li>
+              <li>Sabão líquido OMO e Dynamo - Preço direto da fábrica</li>
+              <li>Sabão líquido de coco e sabão líquido de querosene para limpeza pesada</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-semibold text-blue-600 mb-3">Produtos Multiuso e Desengordurantes</h3>
+            <ul className="list-disc pl-5 space-y-2 text-gray-700">
+              <li>Ajax com amôniaco - Limpeza eficiente para superfícies diversas</li>
+              <li>Multiuso de limão - Ideal para cozinha e superfícies engorduradas</li>
+              <li>Desengraxante Solopan e limpa baú - Perfeitos para limpeza automotiva</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-semibold text-blue-600 mb-3">Desinfetantes e Alvejantes</h3>
+            <ul className="list-disc pl-5 space-y-2 text-gray-700">
+              <li>Comprar desinfetante perfumado 2L e 5L para ambientes limpos e seguros</li>
+              <li>Alvejante com cloro - Remoção eficaz de manchas e germes</li>
+              <li>Água sanitária e cloro 12% - Potentes agentes de limpeza</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-semibold text-blue-600 mb-3">Produtos Especializados para Limpeza Pesada</h3>
+            <ul className="list-disc pl-5 space-y-2 text-gray-700">
+              <li>Limpa alumínio profissional - Deixe suas panelas e utensílios brilhando</li>
+              <li>Limpa pedra - Ideal para pisos externos e superfícies rústicas</li>
+              <li>Sabão Maridão desengordurante - Eficiência na remoção de gorduras difíceis</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-semibold text-blue-600 mb-3">Acessórios e Complementos para Limpeza</h3>
+            <ul className="list-disc pl-5 space-y-2 text-gray-700">
+              <li>Sacos para lixo de 20L a 300L - Resistência e durabilidade garantida</li>
+              <li>Panos de limpeza PP 28 e panos brancos - Limpeza eficiente e prática</li>
+              <li>Esponjas e luvas de limpeza - Itens essenciais para sua casa ou empresa</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-semibold text-blue-600 mb-3">Higiene Pessoal e Proteção</h3>
+            <ul className="list-disc pl-5 space-y-2 text-gray-700">
+              <li>Sabonete líquido lava-doce - Mãos limpas e perfumadas</li>
+              <li>Álcool em gel 70% 500ml - Proteção contra germes e bactérias</li>
+              <li>Papel toalha interfolha e papel higiênico folha dupla - Suprimentos de higiene para empresas e residências</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-semibold text-blue-600 mb-3">Por que comprar nossos produtos de limpeza?</h3>
+            <ul className="list-disc pl-5 space-y-2 text-gray-700">
+              <li>Produção própria com ingredientes de alta qualidade</li>
+              <li>Preços competitivos para atacado e varejo</li>
+              <li>Entrega rápida e atendimento personalizado</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-semibold text-blue-600 mb-3">Principais buscas que levam até nós:</h3>
+            <ul className="list-disc pl-5 space-y-2 text-gray-700">
+              <li>Onde comprar produtos de limpeza no atacado?</li>
+              <li>Produtos de limpeza direto da fábrica com preço justo</li>
+              <li>Sabão líquido OMO e Dynamo com entrega rápida</li>
+              <li>Desinfetante perfumado 5L para empresas</li>
+              <li>Produtos para limpeza pesada automotiva e industrial</li>
+            </ul>
+          </section>
+        </div>
+
+        <div className="mt-8 text-center">
+          <p className="text-lg text-gray-700 font-medium">
+            Entre em contato e solicite seu pedido agora! Nossa loja oferece tudo o que você precisa para manter seu ambiente sempre limpo, perfumado e livre de germes.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
